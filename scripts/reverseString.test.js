@@ -1,7 +1,7 @@
 import reverseString from './reverseString';
 
 it('Empty string input', () => {
-    expect(reverseString()).toBe('');
+    expect(reverseString('')).toBe('');
 });
 
 it('Single character input', () => {
