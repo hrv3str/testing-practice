@@ -1,4 +1,4 @@
-import calculator from './calculator';
+import calculator from './calculator.js';
 
 // Addition tests
 describe('Addition', () => {
@@ -97,7 +97,7 @@ describe('Division', () => {
     });
     
     it('Divide negative by positive', () => {
-        expect(calculator.divide(-12, -3)).toBe(-4);
+        expect(calculator.divide(-12, 3)).toBe(-4);
     });
     
     it('Divide smaller negative by larger negative', () => {
