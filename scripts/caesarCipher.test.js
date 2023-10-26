@@ -13,7 +13,7 @@ it('Wrap from "z" to "a"', () => {
 });
 
 it('Maintain uppercase and lowercase', () => {
-    expect(caesarCipher('AbC XyZ', 1)).toBe('BcD Yza');
+    expect(caesarCipher('AbC XyZ', 1)).toBe('BcD YzA');
 });
 
 it('Maintain punctuation and spaces', () => {
