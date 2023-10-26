@@ -97,7 +97,7 @@ describe('Division', () => {
     });
     
     it('Divide negative by positive', () => {
-        expect(calculator.divide(-12, w3)).toBe(-4);
+        expect(calculator.divide(-12, 3)).toBe(-4);
     });
     
     it('Divide smaller negative by larger negative', () => {
