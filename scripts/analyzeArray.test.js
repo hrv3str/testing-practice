@@ -44,3 +44,12 @@ it('Array with decimal numbers', () => {
         length: 5
     });
 });
+
+it('Array with duplicates', () => {
+    expect(analyzeArray([1, 2, 2, 3, 3, 3])).toEqual({
+        average: 2.33,
+        min: 1,
+        max: 3,
+        length: 6
+    });
+});
