@@ -38,7 +38,7 @@ it('Array with negative numbers', () => {
 
 it('Array with decimal numbers', () => {
     expect(analyzeArray([2.5, 1.3, 4.7, 3.2, 5.1])).toEqual({
-        average: 3.16,
+        average: 3.36,
         min: 1.3,
         max: 5.1,
         length: 5
