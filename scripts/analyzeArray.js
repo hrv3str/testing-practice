@@ -7,8 +7,10 @@ const analyzeArray = (array) => {
             let sum = 0;
             // Iterates through array and sum item values
             for (let i = 0; i < array.length; i++) sum += array[i];
-            // Returns sum divided by array length to get average
-            return sum / array.length
+            // Stores sum divided by array length to get average
+            const average =  sum / array.length
+            // Return average value, rounded to two digits after decimal point
+            return parseFloat(average.toFixed(2));
         }
     }
 
@@ -17,7 +19,7 @@ const analyzeArray = (array) => {
         if (array.length <= 0) return undefined;
         else {
             // Initializes variable to store max
-            let max = 0;
+            let max = array[0];
             // Iterates through array
             for (let i = 0; i < array.length; i++) {
                 // Compares array item to 'max', if item is greater then stores it to 'max'
