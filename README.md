@@ -48,7 +48,7 @@ Alternatively, users can fork the repository, clone it to their local machine, a
 This repository is for personal practice and learning purposes. Contributions are not expected or required.
 
 ## License
-This project is open source and available under the [MIT License](./LICENSE).
+This project is open source and available under the [MIT License](./LICENSE.md).
 
 ## Questions
 If you have any questions or need further assistance, feel free to reach out.
